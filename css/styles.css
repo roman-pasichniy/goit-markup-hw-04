@@ -343,6 +343,10 @@ ul {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.section-four-item:hover .application .text {
+    transform: translateY(0%);
+}
+
 .section-four-image {
     position: relative;
     overflow: hidden;
