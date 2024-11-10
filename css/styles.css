@@ -291,6 +291,7 @@ ul {
 
 .employee .text {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .social-networks {
@@ -334,6 +335,8 @@ ul {
 .section-four-item {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
 }
 
 .section-four-item:hover {
@@ -342,17 +345,7 @@ ul {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.section-four-item .text:hover {
-    transform: translateY(0%);
-}
-
 .section-four-image {
-    position: relative;
-    overflow: hidden;
-
-}
-
-.section-four-image-text {
     position: absolute;
     top:0;
     font-size: 16px;
