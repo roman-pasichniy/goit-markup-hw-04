@@ -335,8 +335,6 @@ ul {
 .section-four-item {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    overflow: hidden;
 }
 
 .section-four-item:hover {
@@ -346,6 +344,11 @@ ul {
 }
 
 .section-four-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-four-image-text {
     position: absolute;
     top:0;
     font-size: 16px;
